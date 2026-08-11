@@ -1,8 +1,8 @@
 class ClaudeCodeRouter < Formula
   desc "Route Claude Code sessions to configured model providers"
   homepage "https://github.com/hishamkaram/claude-code-router"
-  url "https://codeload.github.com/hishamkaram/claude-code-router/tar.gz/refs/tags/v0.4.3"
-  sha256 "d0e56bfa818213054c749c7363f5c69a477a57164eef4cc1e037f9fceb5463f7"
+  url "https://codeload.github.com/hishamkaram/claude-code-router/tar.gz/refs/tags/v0.4.4"
+  sha256 "024ed2881d204e5178d00655134b08146ba99571dacf0da414d08b5a986014c4"
   license "MIT"
 
   depends_on "go" => :build
