@@ -1,8 +1,9 @@
 class DelegationLayer < Formula
   desc "Durable supervised delegation for supported AI CLIs"
   homepage "https://github.com/hishamkaram/delegation-layer"
-  url "https://codeload.github.com/hishamkaram/delegation-layer/tar.gz/refs/tags/v0.1.1"
-  sha256 "264de69aa7a1e7c81690ba33b4e574171d6cfda313a5aa23e63d3522708d98c6"
+  url "https://codeload.github.com/hishamkaram/delegation-layer/tar.gz/refs/tags/v0.1.2"
+  sha256 "cce47ac8bc294d5cad9f160bbe0a3ff9adbad3d66e5a5baa53756510210670fe"
+  license "MIT"
 
   depends_on "go" => :build
 
