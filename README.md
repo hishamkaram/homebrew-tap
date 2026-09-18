@@ -2,6 +2,15 @@
 
 Homebrew packages for projects maintained by Hesham Karm.
 
+## Install Delegation Layer
+
+```bash
+brew install hishamkaram/tap/delegation-layer
+```
+
+The `delegation-layer` formula builds the `delegate` and `delegate-run` CLIs
+from the tagged release source archive.
+
 ## Install CCR
 
 ```bash
