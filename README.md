@@ -8,8 +8,11 @@ Homebrew packages for projects maintained by Hesham Karm.
 brew install hishamkaram/tap/delegation-layer
 ```
 
-The `delegation-layer` formula builds the `delegate` and `delegate-run` CLIs
-from the tagged release source archive.
+The `delegation-layer` formula installs the prebuilt `delegate` and
+`delegate-run` CLIs from a stable release archive and installs `pueue` as its
+runtime supervisor dependency. Each platform archive is pinned with a SHA256
+checksum. The Delegation Layer release promotion workflow updates the formula
+automatically for every promoted stable release.
 
 ## Install CCR
 
