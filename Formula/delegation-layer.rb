@@ -1,28 +1,28 @@
 class DelegationLayer < Formula
   desc "Durable supervised delegation for supported AI CLIs"
   homepage "https://github.com/hishamkaram/delegation-layer"
-  version "0.1.4"
+  version "0.1.10"
   license "MIT"
 
   depends_on "pueue"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/hishamkaram/delegation-layer/releases/download/v0.1.4/delegation-layer_0.1.4_Darwin_arm64.tar.gz"
-      sha256 "4949f1e38aa71e3f5ca6309e4fff0b5cec65abfdb46b87dad35915f392ba288e"
+      url "https://github.com/hishamkaram/delegation-layer/releases/download/v0.1.10/delegation-layer_0.1.10_Darwin_arm64.tar.gz"
+      sha256 "1fe4d1ea1f048c9b4cbad350d7a7cb2679e65f6f964fa4ce6da763adeafc0768"
     else
-      url "https://github.com/hishamkaram/delegation-layer/releases/download/v0.1.4/delegation-layer_0.1.4_Darwin_amd64.tar.gz"
-      sha256 "68f87b9d78a037ff39deba3d5f088428e9248d06c2ac7f21ebd9f268a2977ff2"
+      url "https://github.com/hishamkaram/delegation-layer/releases/download/v0.1.10/delegation-layer_0.1.10_Darwin_amd64.tar.gz"
+      sha256 "ecc81b5bac61162b67d8f8e3afc375ab03300f2714f8882ae602841834bec038"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/hishamkaram/delegation-layer/releases/download/v0.1.4/delegation-layer_0.1.4_Linux_arm64.tar.gz"
-      sha256 "04d90675f6c53d47a6681ac27e5c44af181f14c8ba28be9d85be33022933c983"
+      url "https://github.com/hishamkaram/delegation-layer/releases/download/v0.1.10/delegation-layer_0.1.10_Linux_arm64.tar.gz"
+      sha256 "5f6e7ecdee786a13df97ab36f0c5943e90df1352b2943ac39b3646ec9729c99d"
     else
-      url "https://github.com/hishamkaram/delegation-layer/releases/download/v0.1.4/delegation-layer_0.1.4_Linux_amd64.tar.gz"
-      sha256 "b1f272edc7949a8c40ef0e928e36570abfb2c04988cb0aab13fe80fd88a18d48"
+      url "https://github.com/hishamkaram/delegation-layer/releases/download/v0.1.10/delegation-layer_0.1.10_Linux_amd64.tar.gz"
+      sha256 "5ebe2cf152f62a697ee9b059d5f45256247e45a0d0ea6079d4a910a850d664b7"
     end
   end
 
