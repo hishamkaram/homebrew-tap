@@ -1,26 +1,26 @@
 class DelegationLayer < Formula
   desc "Durable supervised delegation for supported AI CLIs"
   homepage "https://github.com/hishamkaram/delegation-layer"
-  version "0.1.17"
+  version "0.1.18"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/hishamkaram/delegation-layer/releases/download/v0.1.17/delegation-layer_0.1.17_Darwin_arm64.tar.gz"
-      sha256 "4a5e5d0463d769ca41451a96f1bc1cd398a5339c9659c875a9e00f6c4db311ba"
+      url "https://github.com/hishamkaram/delegation-layer/releases/download/v0.1.18/delegation-layer_0.1.18_Darwin_arm64.tar.gz"
+      sha256 "7a44f786db617dd6f2bc420d24a3541665203fe4f1e19d00c859a13e5f8cbc8f"
     else
-      url "https://github.com/hishamkaram/delegation-layer/releases/download/v0.1.17/delegation-layer_0.1.17_Darwin_amd64.tar.gz"
-      sha256 "7f756c0c247c538476a285d65be14004ee222452881c155da6f26181843fd720"
+      url "https://github.com/hishamkaram/delegation-layer/releases/download/v0.1.18/delegation-layer_0.1.18_Darwin_amd64.tar.gz"
+      sha256 "c90191f59699d8a580ca5dd3f8501fa0e14fc601c725c43aa605d45605a90638"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/hishamkaram/delegation-layer/releases/download/v0.1.17/delegation-layer_0.1.17_Linux_arm64.tar.gz"
-      sha256 "09c1ac51a1aeab271b7d25f44d3b4f315ab7f18cfb1b770c3901c54b9da47a7b"
+      url "https://github.com/hishamkaram/delegation-layer/releases/download/v0.1.18/delegation-layer_0.1.18_Linux_arm64.tar.gz"
+      sha256 "db07682ec31498719d5a2233c291236fbdca73d12ad61269ffb17123fe08b034"
     else
-      url "https://github.com/hishamkaram/delegation-layer/releases/download/v0.1.17/delegation-layer_0.1.17_Linux_amd64.tar.gz"
-      sha256 "d16bc305b49e9dcb61a5c0cce60f9aa5231f11ec9a18c1b6f40e0e5be77a459c"
+      url "https://github.com/hishamkaram/delegation-layer/releases/download/v0.1.18/delegation-layer_0.1.18_Linux_amd64.tar.gz"
+      sha256 "0894cdb9808d10f3056ce849118eb3756ae319d90be7c8cbc2d9fea7d6c0a9c9"
     end
   end
 
