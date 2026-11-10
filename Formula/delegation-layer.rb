@@ -1,26 +1,26 @@
 class DelegationLayer < Formula
   desc "Durable supervised delegation for supported AI CLIs"
   homepage "https://github.com/hishamkaram/delegation-layer"
-  version "0.4.2"
+  version "0.5.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/hishamkaram/delegation-layer/releases/download/v0.4.2/delegation-layer_0.4.2_Darwin_arm64.tar.gz"
-      sha256 "a99017e5418b98189a7ae38cfdd175a27e4a6c8f4a706bb03d75456df79adfb1"
+      url "https://github.com/hishamkaram/delegation-layer/releases/download/v0.5.0/delegation-layer_0.5.0_Darwin_arm64.tar.gz"
+      sha256 "627f010069ebc94cf4476bd376b635f1d848057edce81027d66e766df596507b"
     else
-      url "https://github.com/hishamkaram/delegation-layer/releases/download/v0.4.2/delegation-layer_0.4.2_Darwin_amd64.tar.gz"
-      sha256 "2daa42a0a88503976216bb06230535dc5e28503e20285f4af6e66f9c6373aaab"
+      url "https://github.com/hishamkaram/delegation-layer/releases/download/v0.5.0/delegation-layer_0.5.0_Darwin_amd64.tar.gz"
+      sha256 "6c4539820b971668747e2cb0f21f2cc73cb49663722754e1f7e912e64d84adaf"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/hishamkaram/delegation-layer/releases/download/v0.4.2/delegation-layer_0.4.2_Linux_arm64.tar.gz"
-      sha256 "bf048970128f506815c7958a76c0550f2f413638629aaf88132cf0bfb6b22181"
+      url "https://github.com/hishamkaram/delegation-layer/releases/download/v0.5.0/delegation-layer_0.5.0_Linux_arm64.tar.gz"
+      sha256 "7a9a8260c373b0228611bd7e437613a554d4c5d0751a1251e6447d1fb5ae315a"
     else
-      url "https://github.com/hishamkaram/delegation-layer/releases/download/v0.4.2/delegation-layer_0.4.2_Linux_amd64.tar.gz"
-      sha256 "318ac02fd3a5802950ccc61b430edbaf283e83648ea1be9efbe785ed13a7b40a"
+      url "https://github.com/hishamkaram/delegation-layer/releases/download/v0.5.0/delegation-layer_0.5.0_Linux_amd64.tar.gz"
+      sha256 "ac44ba864edf7d727663d903c25742b299e4ebe809137fdc673cf13f80b41e01"
     end
   end
 
